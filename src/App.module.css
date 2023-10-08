@@ -1,0 +1,18 @@
+.container {
+    font-size: xx-large;
+    font-weight: font;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+}
