@@ -81,7 +81,7 @@ function App() {
 
       {status === GAME_STATUS.STARTING && <div>
         <div className={styles.cards}>
-          {cards.map((card, i) => <button className={styles.card} key={i} onClick={() => handleSelectCard(card.id)}><img src={card.url} /></button>)}
+          {cards.map((card, i) => <button key={i} onClick={() => handleSelectCard(card.id)}><img src={card.url} /></button>)}
         </div>
       </div>}
 
